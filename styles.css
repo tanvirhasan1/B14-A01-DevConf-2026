@@ -1,0 +1,107 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-400 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-600 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.inter-700 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+/* container */
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+.f-left {
+    float: left;
+}
+.f-right{
+    float: right;
+}
+/* display flex */
+.d-flex {
+    display: flex;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-center {
+    justify-content: center;
+}
+/* alignment */
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+/* row and column */
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.333333%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-12 {
+    width: 100%;
+}
+/* button style */
+.d-btn {
+    display: inline-block;
+    padding: 0 45px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1D4ED8;
+    font-size: 16px;
+    font-weight: 700;
+    height: 45px;
+    line-height: 45px;
+}
+/* header area */
+.main-menu nav ul{
+    list-style: none;
+    text-align: center;
+}
+.main-menu nav ul li{
+    display: inline-block;
+    margin: 0 12px;
+}
+.main-menu nav ul li a{
+    text-decoration: none;
+    color: #575757;
+    padding: 40px 0;
+    display: block;
+}
