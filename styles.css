@@ -216,7 +216,7 @@ body {
         linear-gradient(to top right,
             rgba(0, 0, 0, 0) 42%,
             rgba(0, 0, 0, 0.88) 87%),
-        url("assets/banner.jpg");
+        url("./assets/banner.jpg");
 }
 .hero-height .container {
     position: relative;
