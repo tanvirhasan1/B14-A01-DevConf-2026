@@ -328,3 +328,130 @@ body {
 .single-pricing.active .pricing-tag h4 {
     color: #93C5FD;
 }
+/* journey section */
+.journey-section {
+    background-color: #F8F7FF;
+    overflow: hidden;
+}
+
+.journey-wrapper {
+    position: relative;
+}
+
+.journey-timeline {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+}
+
+.journey-timeline::before {
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: #CBD5E1;
+    position: absolute;
+    top: 34px;
+    left: 10%;
+}
+
+.journey-item {
+    width: 20%;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+}
+
+.journey-number {
+    width: 68px;
+    height: 68px;
+    line-height: 64px;
+    border: 2px solid #2563EB;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: #2563EB;
+    font-size: 18px;
+    margin: 0 auto 25px;
+    position: relative;
+    z-index: 2;
+}
+
+.journey-content {
+    min-height: 240px;
+    padding: 28px 14px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(13, 27, 42, 0.06);
+}
+
+.journey-time {
+    color: #7C3AED;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.journey-content h3 {
+    color: #0D1B2A;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+
+.journey-content p {
+    color: #575757;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.journey-item.active .journey-number {
+    color: #FFFFFF;
+    background-color: #7C3AED;
+    border-color: #7C3AED;
+    box-shadow: 0 0 0 8px rgba(124, 58, 237, 0.12);
+}
+
+.journey-item.active .journey-content {
+    border-color: #C4B5FD;
+    background-color: #0D1B2A;
+    transform: translateY(-8px);
+}
+
+.journey-item.active .journey-time {
+    color: #93C5FD;
+}
+
+.journey-item.active .journey-content h3 {
+    color: #FFFFFF;
+}
+
+.journey-item.active .journey-content p {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.journey-message {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    border: 1px solid #C4B5FD;
+    border-radius: 12px;
+    background-color: #EDE9FE;
+}
+
+.journey-message span {
+    color: #7C3AED;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.journey-message h3 {
+    color: #0D1B2A;
+    font-size: 26px;
+    line-height: 36px;
+}
