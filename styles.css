@@ -209,18 +209,6 @@ body {
     background-size: cover;
     background-position: center center;
     position: relative;
-    background-image:
-        linear-gradient(to right,
-            rgba(0, 0, 0, 0.60) 30%,
-            rgba(0, 0, 0, 0) 70%),
-        linear-gradient(to top right,
-            rgba(0, 0, 0, 0) 42%,
-            rgba(0, 0, 0, 0.88) 87%),
-        url("./assets/banner.jpg");
-}
-.hero-height .container {
-    position: relative;
-    z-index: 2;
 }
 
 .hero-text.text-center h1 {
